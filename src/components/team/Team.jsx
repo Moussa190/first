@@ -67,7 +67,7 @@ export default function Team() {
                 <h2 class="h3 fw-semibold text-secondary mt-5 mb-3">Ihr Vorteil mit uns</h2>
                 <div class="alert alert-warning p-4 shadow-sm">
                   <p class="mb-0">
-                    Unser eingespieltes Team deckt das komplette Leistungsspektrum ab: vom Privatumzug über den Büroumzug bis hin zu Möbeltransporten und Küchenmontagen. Gemeinsam sorgen wir dafür, dass Ihr Umzug in Augsburg oder Umgebung schnell, sicher und angenehm durchgeführt wird. Mit der **Umzüge Transportgroup** wählen Sie nicht einfach Helfer – Sie wählen ein **kompetentes Profi-Team**, das Verantwortung übernimmt und Sie von Anfang bis Ende begleitet.
+                    Unser eingespieltes Team deckt das komplette Leistungsspektrum ab: vom Privatumzug über den Büroumzug bis hin zu Möbeltransporten und Küchenmontagen. Gemeinsam sorgen wir dafür, dass Ihr Umzug in Augsburg oder Umgebung schnell, sicher und angenehm durchgeführt wird. Mit der Umzüge Transportgroup wählen Sie nicht einfach Helfer – Sie wählen ein kompetentes Profi-Team, das Verantwortung übernimmt und Sie von Anfang bis Ende begleitet.
                   </p>
                 </div>
 
