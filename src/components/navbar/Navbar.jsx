@@ -13,12 +13,12 @@ export default function Navbar() {
         <>
             <header id="header" className="fixed-top header-scrolled">
                 <div className="container d-flex align-items-center justify-content-lg-between">
-                    <h1 className="logo me-auto me-lg-0">
+                    <div className="logo me-auto me-lg-0">
                         <Link to={"/"}>
                             <img src="/assets/img/utg-logo.png" alt="UTG Logo" className="img-fluid" />
 
                         </Link>
-                    </h1>
+                    </div>
                     <nav id="navbar" className={`navbar order-last order-lg-0 ${mobileNavActive ? 'navbar-mobile' : ''}`}>
                         <ul>
                             <li><Link to={""} className="nav-link scrollto active" href="#hero">Home</Link></li>
