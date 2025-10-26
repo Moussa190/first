@@ -130,7 +130,7 @@ export default function Portfolio() {
                             {/* {renderProfileImages} */}
                             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="/assets/img/portfolio/portfolio-1.png" className="img-fluid" alt='' />
+                                    <img src="/assets/img/portfolio/portfolio-1.png" className="img-fluid" alt='portfolio-1' />
                                     <div className="portfolio-info">
                                         <h4>umzug</h4>
                                         <p>umzug</p>
@@ -142,7 +142,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-2.png" className="img-fluid" alt='' />
+                                    <img src="assets/img/portfolio/portfolio-2.png" className="img-fluid" alt='portfolio-2' />
                                     <div className="portfolio-info">
                                         <h4>Services 3</h4>
                                         <p>Services</p>
@@ -154,7 +154,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/service/airbusA330.png" className="img-fluid" alt='' />
+                                    <img src="assets/img/service/airbusA330.png" className="img-fluid" alt='service/airbusA330' />
                                     <div className="portfolio-info">
                                         <h4>Airbus 2</h4>
                                         <p>Airbus</p>
@@ -166,7 +166,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/service/boeing747.png" className="img-fluid" alt='' />
+                                    <img src="assets/img/service/boeing747.png" className="img-fluid" alt='service/boeing747' />
                                     <div className="portfolio-info">
                                         <h4>Transport</h4>
                                         <p>Transport</p>
@@ -178,7 +178,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-8.png" className="img-fluid" alt='' />
+                                    <img src="assets/img/portfolio/portfolio-8.png" className="img-fluid" alt='portfolio-8' />
                                     <div className="portfolio-info">
                                         <h4>Services 2</h4>
                                         <p>Services</p>
@@ -190,7 +190,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/service/airbusA320.png" className="img-fluid" alt='' />
+                                    <img src="assets/img/service/airbusA320.png" className="img-fluid" alt='service/airbusA320' />
                                     <div className="portfolio-info">
                                         <h4>umzug</h4>
                                         <p>umzug</p>
@@ -202,7 +202,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/service/boeing787.png" className="img-fluid" alt='' />
+                                    <img src="assets/img/service/boeing787.png" className="img-fluid" alt='service/boeing787' />
                                     <div className="portfolio-info">
                                         <h4>Transport</h4>
                                         <p>Transport</p>
@@ -214,7 +214,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/service/boeing737.png" className="img-fluid" alt='' />
+                                    <img src="assets/img/service/boeing737.png" className="img-fluid" alt='service/boeing737' />
                                     <div className="portfolio-info">
                                         <h4>Transport</h4>
                                         <p>Transport</p>
@@ -226,7 +226,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-10.png" className="img-fluid" alt='' />
+                                    <img src="assets/img/portfolio/portfolio-10.png" className="img-fluid" alt='portfolio-10' />
                                     <div className="portfolio-info">
                                         <h4>Services 3</h4>
                                         <p>Services</p>
@@ -306,8 +306,6 @@ export default function Portfolio() {
                             <div className="swiper-wrapper">
                                 <div className="swiper-slide">
                                     <div className="testimonial-item">
-                                        {/* <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt /> */}
-                                        {/* <img src="assets/img/utg-logo.svg" alt="UmzügeTransport Group logo" /> */}
                                         <h3>UmzügeTransport Group</h3>
                                         {/* <h4>Ceo &amp; Founder</h4> */}
                                         <p>
