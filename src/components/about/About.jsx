@@ -10,7 +10,7 @@ export default function About() {
               <img src="assets/img/about.png" className="img-fluid" alt='about' />
             </div>
             <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay={100}>
-              <h3>Über uns  </h3>
+              <h1>Über uns  </h1>
               <p className="fst-italic">
                 Als vielseitiges Transportunternehmen und Experte für Umzüge sind wir Ihr vertrauenswürdiger Partner für sämtliche Transport- und Umzugsanliegen.
               </p>

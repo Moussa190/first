@@ -114,7 +114,7 @@ export default function Portfolio() {
                     <div className="container" data-aos="fade-up">
                         <div className="section-title">
                             <h2>Portfolio</h2>
-                            <p>Schauen Sie sich unsere Portfolio an</p>
+                            <h1>Schauen Sie sich unsere Portfolio an</h1>
                         </div>
                         <div className="row" data-aos="fade-up" data-aos-delay={100}>
                             <div className="col-lg-12 d-flex justify-content-center">
@@ -130,7 +130,7 @@ export default function Portfolio() {
                             {/* {renderProfileImages} */}
                             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="/assets/img/portfolio/portfolio-1.png" className="img-fluid" alt='portfolio' />
+                                    <img src="/assets/img/portfolio/portfolio-1.png" className="img-fluid" alt='' />
                                     <div className="portfolio-info">
                                         <h4>umzug</h4>
                                         <p>umzug</p>
@@ -142,7 +142,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-2.png" className="img-fluid" alt='portfolio' />
+                                    <img src="assets/img/portfolio/portfolio-2.png" className="img-fluid" alt='' />
                                     <div className="portfolio-info">
                                         <h4>Services 3</h4>
                                         <p>Services</p>
@@ -154,7 +154,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/service/airbusA330.png" className="img-fluid" alt='service' />
+                                    <img src="assets/img/service/airbusA330.png" className="img-fluid" alt='' />
                                     <div className="portfolio-info">
                                         <h4>Airbus 2</h4>
                                         <p>Airbus</p>
@@ -166,7 +166,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/service/boeing747.png" className="img-fluid" alt='service' />
+                                    <img src="assets/img/service/boeing747.png" className="img-fluid" alt='' />
                                     <div className="portfolio-info">
                                         <h4>Transport</h4>
                                         <p>Transport</p>
@@ -178,7 +178,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-8.png" className="img-fluid" alt='portfolio' />
+                                    <img src="assets/img/portfolio/portfolio-8.png" className="img-fluid" alt='' />
                                     <div className="portfolio-info">
                                         <h4>Services 2</h4>
                                         <p>Services</p>
@@ -190,7 +190,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/service/airbusA320.png" className="img-fluid" alt='service' />
+                                    <img src="assets/img/service/airbusA320.png" className="img-fluid" alt='' />
                                     <div className="portfolio-info">
                                         <h4>umzug</h4>
                                         <p>umzug</p>
@@ -202,7 +202,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/service/boeing787.png" className="img-fluid" alt='service' />
+                                    <img src="assets/img/service/boeing787.png" className="img-fluid" alt='' />
                                     <div className="portfolio-info">
                                         <h4>Transport</h4>
                                         <p>Transport</p>
@@ -214,7 +214,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/service/boeing737.png" className="img-fluid" alt='service' />
+                                    <img src="assets/img/service/boeing737.png" className="img-fluid" alt='' />
                                     <div className="portfolio-info">
                                         <h4>Transport</h4>
                                         <p>Transport</p>
@@ -226,7 +226,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-10.png" className="img-fluid" alt='portfolio' />
+                                    <img src="assets/img/portfolio/portfolio-10.png" className="img-fluid" alt='' />
                                     <div className="portfolio-info">
                                         <h4>Services 3</h4>
                                         <p>Services</p>

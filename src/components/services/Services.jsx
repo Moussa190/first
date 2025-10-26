@@ -9,7 +9,7 @@ export default function Service() {
           <div className="container" data-aos="fade-up">
             <div className="section-title">
               <h2>Services</h2>
-              <p>Schauen Sie sich unsere Leistungen „unser Dienst“ an"</p>
+              <h1>Schauen Sie sich unsere Leistungen „unser Dienst“ an"</h1>
             </div>
             <div className="row">
               <div className="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay={100}>
