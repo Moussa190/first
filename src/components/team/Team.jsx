@@ -27,11 +27,11 @@ export default function Team() {
   ]
 
   // card html
-  const cardLayout = (title, description) => <div class="col-md-6">
-    <div class="card border-0 shadow-sm h-100 p-3">
-      <div class="card-body">
-        <h3 class="h5 card-title text-warning"><i class="bi bi-person-rolodex me-2"></i>{title}</h3>
-        <p class="card-text">{description}</p>
+  const cardLayout = (title, description) => <div className="col-md-6" key={title}>
+    <div className="card border-0 shadow-sm h-100 p-3">
+      <div className="card-body">
+        <h3 className="h5 card-title text-warning"><i className="bi bi-person-rolodex me-2"></i>{title}</h3>
+        <p className="card-text">{description}</p>
       </div>
     </div>
   </div>
@@ -47,26 +47,26 @@ export default function Team() {
             <h2>Team</h2>
             <p>Unser engagiertes Team – Umzüge Transportgroup </p>
           </div>
-          <div class="container my-2" data-aos="fade-up" data-aos-delay={100}>
+          <div className="container my-2" data-aos="fade-up" data-aos-delay={100}>
 
 
-            <div class="row">
+            <div className="row">
               {/* ======= left Section start ======= */}
-              <div class="col-lg-8">
-                <p class="lead mb-4">
+              <div className="col-lg-8">
+                <p className="lead mb-4">
                   Wenn ein Umzug in Augsburg oder im Umland ansteht, sind wir Ihr verlässlicher Ansprechpartner. Die Umzüge Transportgroup steht für ein professionelles Team aus Umzugshelfern, Fahrern und Montagespezialisten, das Ihre Umzugs- und Transportaufgaben mit Erfahrung, Sorgfalt und engagierter Betreuung übernimmt.
                 </p>
 
                 {/* ===== cards section  ===== */}
-                <h2 class="h3 fw-semibold text-secondary mt-5 mb-3">Unsere Kernwerte</h2>
-                <div class="row g-4">
+                <h2 className="h3 fw-semibold text-secondary mt-5 mb-3">Unsere Kernwerte</h2>
+                <div className="row g-4">
                   {renderCards}
                 </div>
 
 
-                <h2 class="h3 fw-semibold text-secondary mt-5 mb-3">Ihr Vorteil mit uns</h2>
-                <div class="alert alert-warning p-4 shadow-sm">
-                  <p class="mb-0">
+                <h2 className="h3 fw-semibold text-secondary mt-5 mb-3">Ihr Vorteil mit uns</h2>
+                <div className="alert alert-warning p-4 shadow-sm">
+                  <p className="mb-0">
                     Unser eingespieltes Team deckt das komplette Leistungsspektrum ab: vom Privatumzug über den Büroumzug bis hin zu Möbeltransporten und Küchenmontagen. Gemeinsam sorgen wir dafür, dass Ihr Umzug in Augsburg oder Umgebung schnell, sicher und angenehm durchgeführt wird. Mit der Umzüge Transportgroup wählen Sie nicht einfach Helfer – Sie wählen ein kompetentes Profi-Team, das Verantwortung übernimmt und Sie von Anfang bis Ende begleitet.
                   </p>
                 </div>
@@ -77,8 +77,8 @@ export default function Team() {
 
 
               {/* ======= right Section start ======= */}
-              <div class="col-lg-4 d-none d-lg-block">
-                <div class="bg- p-4 rounded text-center h-100 d-flex align-items-stretch justify-content-center">
+              <div className="col-lg-4 d-none d-lg-block">
+                <div className="bg- p-4 rounded text-center h-100 d-flex align-items-stretch justify-content-center">
                   <img src="assets/img/portfolio/portfolio-3.png" alt="teams" className='img-fluid' />
                 </div>
               </div>

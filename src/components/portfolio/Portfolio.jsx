@@ -16,8 +16,96 @@ export default function Portfolio() {
         }
     }, []);
 
+    // const portfolioData = [
+    //     {
+    //         id: 1,
+    //         title: "umzug",
+    //         subtitle: "umzug",
+    //         image: "assets/img/portfolio/portfolio-1.png",
+    //         alt: "Umzug service item 1",
+    //         filteredTitle: "Airbus 1"
+    //     },
+    //     {
+    //         id: 2,
+    //         title: "Services 3",
+    //         subtitle: "Services",
+    //         image: "assets/img/portfolio/portfolio-2.png",
+    //         alt: "Services category item 3",
+    //         filteredTitle: "Web 3"
+    //     },
+    //     {
+    //         id: 3,
+    //         title: "Airbus 2",
+    //         subtitle: "Airbus",
+    //         image: "assets/img/service/airbusA330.png",
+    //         alt: "Airbus A330 aircraft",
+    //         filteredTitle: "App 2"
+    //     },
+    //     {
+    //         id: 4,
+    //         title: "Transport",
+    //         subtitle: "Transport",
+    //         image: "assets/img/service/boeing747.png",
+    //         alt: "Boeing 747 transport aircraft",
+    //         filteredTitle: "Card 2"
+    //     },
+    //     {
+    //         id: 5,
+    //         title: "Services 2",
+    //         subtitle: "Services",
+    //         image: "assets/img/portfolio/portfolio-8.png",
+    //         alt: "Services category item 2",
+    //         filteredTitle: "Web 2"
+    //     },
+    //     {
+    //         id: 6,
+    //         title: "umzug",
+    //         subtitle: "umzug",
+    //         image: "assets/img/service/airbusA320.png",
+    //         alt: "Airbus A320 for umzug service",
+    //         filteredTitle: "App 3"
+    //     },
+    //     {
+    //         id: 7,
+    //         title: "Transport",
+    //         subtitle: "Transport",
+    //         image: "assets/img/service/boeing787.png",
+    //         alt: "Boeing 787 transport aircraft",
+    //         filteredTitle: "Card 1"
+    //     },
+    //     {
+    //         id: 8,
+    //         title: "Transport",
+    //         subtitle: "Transport",
+    //         image: "assets/img/service/boeing737.png",
+    //         alt: "Boeing 737 transport aircraft",
+    //         filteredTitle: "Card 3"
+    //     },
+    //     {
+    //         id: 9,
+    //         title: "Services 3",
+    //         subtitle: "Services",
+    //         image: "assets/img/portfolio/portfolio-10.png",
+    //         alt: "Services category item 3 (Image 2)",
+    //         filteredTitle: "Web 3"
+    //     }
+    // ];
+    // const PortfolioItem = (image, title, subTitle, alt, filteredTitle) => <div key={image} className="col-lg-4 col-md-6 portfolio-item filter-web">
+    //     <div className="portfolio-wrap">
+    //         <img src={image} className="img-fluid" alt={alt} />
+    //         <div className="portfolio-info">
+    //             <h4>{title}</h4>
+    //             <p>{subTitle}</p>
+    //             <div className="portfolio-links">
+    //                 {console.log(image, "image")}
+    //                 {console.log(filteredTitle, "filteredTitle")}
+    //                 <a href={{ image }} data-gallery="portfolioGallery" className="portfolio-lightbox" title={filteredTitle}><i className="bx bx-plus" /></a>
+    //             </div>
+    //         </div>
+    //     </div>
+    // </div>
 
-
+    // const renderProfileImages = portfolioData.map(item => PortfolioItem(item.image, item.title, item.subtitle, item.alt, item.filteredTitle))
     return (
         <>
             <div>
@@ -26,7 +114,7 @@ export default function Portfolio() {
                     <div className="container" data-aos="fade-up">
                         <div className="section-title">
                             <h2>Portfolio</h2>
-                            <p>Schauen Sie sich unsere Portfolio  an</p>
+                            <p>Schauen Sie sich unsere Portfolio an</p>
                         </div>
                         <div className="row" data-aos="fade-up" data-aos-delay={100}>
                             <div className="col-lg-12 d-flex justify-content-center">
@@ -39,10 +127,10 @@ export default function Portfolio() {
                             </div>
                         </div>
                         <div className="row portfolio-container" data-aos="fade-up" data-aos-delay={200}>
+                            {/* {renderProfileImages} */}
                             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-
-                                    <img src="/assets/img/portfolio/portfolio-1.png" className="img-fluid" alt />
+                                    <img src="/assets/img/portfolio/portfolio-1.png" className="img-fluid" alt='portfolio' />
                                     <div className="portfolio-info">
                                         <h4>umzug</h4>
                                         <p>umzug</p>
@@ -54,7 +142,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-2.png" className="img-fluid" alt />
+                                    <img src="assets/img/portfolio/portfolio-2.png" className="img-fluid" alt='portfolio' />
                                     <div className="portfolio-info">
                                         <h4>Services 3</h4>
                                         <p>Services</p>
@@ -66,7 +154,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/service/airbusA330.png" className="img-fluid" alt />
+                                    <img src="assets/img/service/airbusA330.png" className="img-fluid" alt='service' />
                                     <div className="portfolio-info">
                                         <h4>Airbus 2</h4>
                                         <p>Airbus</p>
@@ -78,7 +166,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/service/boeing747.png" className="img-fluid" alt />
+                                    <img src="assets/img/service/boeing747.png" className="img-fluid" alt='service' />
                                     <div className="portfolio-info">
                                         <h4>Transport</h4>
                                         <p>Transport</p>
@@ -90,7 +178,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-8.png" className="img-fluid" alt />
+                                    <img src="assets/img/portfolio/portfolio-8.png" className="img-fluid" alt='portfolio' />
                                     <div className="portfolio-info">
                                         <h4>Services 2</h4>
                                         <p>Services</p>
@@ -102,7 +190,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/service/airbusA320.png" className="img-fluid" alt />
+                                    <img src="assets/img/service/airbusA320.png" className="img-fluid" alt='service' />
                                     <div className="portfolio-info">
                                         <h4>umzug</h4>
                                         <p>umzug</p>
@@ -114,7 +202,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/service/boeing787.png" className="img-fluid" alt />
+                                    <img src="assets/img/service/boeing787.png" className="img-fluid" alt='service' />
                                     <div className="portfolio-info">
                                         <h4>Transport</h4>
                                         <p>Transport</p>
@@ -126,7 +214,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/service/boeing737.png" className="img-fluid" alt />
+                                    <img src="assets/img/service/boeing737.png" className="img-fluid" alt='service' />
                                     <div className="portfolio-info">
                                         <h4>Transport</h4>
                                         <p>Transport</p>
@@ -138,7 +226,7 @@ export default function Portfolio() {
                             </div>
                             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                                 <div className="portfolio-wrap">
-                                    <img src="assets/img/portfolio/portfolio-10.png" className="img-fluid" alt />
+                                    <img src="assets/img/portfolio/portfolio-10.png" className="img-fluid" alt='portfolio' />
                                     <div className="portfolio-info">
                                         <h4>Services 3</h4>
                                         <p>Services</p>
@@ -171,7 +259,7 @@ export default function Portfolio() {
                                                 <i className="bi bi-emoji-smile" />
                                                 <span data-purecounter-start={0} data-purecounter-end={65} data-purecounter-duration={2} className="purecounter" />
                                                 <p>
-                                                    <strong>Erfahrene und freundliche Mitarbeiter,</strong>  die Ihre Bedürfnisse verstehen.
+                                                    <strong>Erfahrene und freundliche Mitarbeiter,</strong> die Ihre Bedürfnisse verstehen.
                                                 </p>
                                             </div>
                                         </div>
@@ -180,7 +268,7 @@ export default function Portfolio() {
                                                 <i className="bi bi-journal-richtext" />
                                                 <span data-purecounter-start={0} data-purecounter-end={85} data-purecounter-duration={2} className="purecounter" />
                                                 <p>
-                                                    <strong>Sorgfältige</strong>  Handhabung Ihrer persönlichen Gegenstände.
+                                                    <strong>Sorgfältige</strong> Handhabung Ihrer persönlichen Gegenstände.
                                                 </p>
                                             </div>
                                         </div>
