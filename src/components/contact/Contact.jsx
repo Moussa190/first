@@ -35,7 +35,7 @@ export default function Contact() {
         <div className="container" data-aos="fade-up">
           <div className="section-title">
             <h2>Contact</h2>
-            <h1>Kontaktieren Sie uns</h1>
+            <h3>Kontaktieren Sie uns</h3>
           </div>
           <div>
             <iframe style={{ border: 0, width: '100%', height: 270 }} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d160687.06137576685!2d10.904760457965963!3d48.40492317725709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ebcf107771cad%3A0x8779b685da0a518c!2sAm%20Haferfeld%2015!5e1!3m2!1sar!2sde!4v1758740511173!5m2!1sar!2sde" frameBorder={0} allowFullScreen />

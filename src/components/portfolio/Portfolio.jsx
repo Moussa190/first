@@ -114,7 +114,7 @@ export default function Portfolio() {
                     <div className="container" data-aos="fade-up">
                         <div className="section-title">
                             <h2>Portfolio</h2>
-                            <h1>Schauen Sie sich unsere Portfolio an</h1>
+                            <h3>Schauen Sie sich unsere Portfolio an</h3>
                         </div>
                         <div className="row" data-aos="fade-up" data-aos-delay={100}>
                             <div className="col-lg-12 d-flex justify-content-center">

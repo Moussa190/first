@@ -45,7 +45,7 @@ export default function Team() {
         <div className="container" data-aos="fade-up">
           <div className="section-title" >
             <h2>Team</h2>
-            <h1>Unser engagiertes Team – Umzüge Transportgroup </h1>
+            <h3>Unser engagiertes Team – Umzüge Transportgroup </h3>
           </div>
           <div className="container my-2" data-aos="fade-up" data-aos-delay={100}>
 
