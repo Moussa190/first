@@ -1,0 +1,19 @@
+/* Importiere hier ggf. deine Template/CSS-Dateien oder Vendor‑CSS */
+/* Beispiel: @import "../public/assets/vendor/boxicons/css/boxicons.css"; */
+
+/* Eigene Projektstile */
+:root {
+  /* ...your variables... */
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* Beispielklasse, die PurgeCSS nicht entfernen soll (nur Demo) */
+.app {
+  display: flex;
+}
+
+/* Weitere Styles ... (ersetze durch Dein vollständiges CSS) */
