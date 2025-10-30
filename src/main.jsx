@@ -1,16 +1,21 @@
-import React from "react";
-import { createRoot } from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
-import App from "./App";
-// global CSS: lade Deine gebündelte CSS (erstelle dist/styles.min.css via Build-Tool)
-import "../public/assets/vendor/boxicons/css/boxicons.css";
-// optional: weitere zentrale css imports (z.B. app.css)
-// import "./assets/css/style.css";
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
 
-createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>
-);
+// 2. IMPORT VENDOR CSS FILES (Installed via npm/yarn)
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'aos/dist/aos.css';
+// import 'boxicons/css/boxicons.min.css';
+
+
+// 6. IMPORT YOUR TEMPLATE'S MAIN JS LOGIC
+import '../public/assets/js/main.js';
+
+
+
+
+createRoot(document.getElementById('root')).render(
+
+    <App />
+
+)

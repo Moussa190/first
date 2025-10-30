@@ -7,9 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "dev:css": "postcss assets/css/style.css -o public/dist/styles.css --watch",
-    "build:css": "cross-env NODE_ENV=production postcss assets/css/style.css -o public/dist/styles.min.css"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -33,12 +31,6 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
     "vite": "^7.1.0",
-    "vite-plugin-purgecss": "^0.2.13",
-    "postcss": "^8.4.0",
-    "postcss-cli": "^9.1.0",
-    "autoprefixer": "^10.4.0",
-    "cssnano": "^5.1.0",
-    "@fullhuman/postcss-purgecss": "^4.0.3",
-    "cross-env": "^7.0.3"
+    "vite-plugin-purgecss": "^0.2.13"
   }
 }
