@@ -15,7 +15,7 @@ export default function Service() {
               <div className="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay={100}>
                 <div className="icon-box">
                   <div className="icon"><i className="bx bxl-dribbble" /></div>
-                  <h4><a href>Möbelmontage </a></h4>
+                  <p className="card-title"><a href>Möbelmontage </a></p>
                   <p>
                     Wir montieren und demontieren neue oder gebrauchte Möbelstücke fachgerecht und schnell, insbesondere auch komplexe Bausätze von Herstellern wie Ikea.            </p>
                 </div>
@@ -23,7 +23,7 @@ export default function Service() {
               <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay={200}>
                 <div className="icon-box">
                   <div className="icon"><i className="bx bx-file" /></div>
-                  <h4><a href>Entrümpelungen</a></h4>
+                  <p className="card-title"><a href>Entrümpelungen</a></p>
                   <p>
                     Wir übernehmen die komplette Räumung von Kellern, Dachböden oder ganzen Wohnungen, um Platz zu schaffen und ungenutzte Gegenstände zu entsorgen.            </p>
                 </div>
@@ -31,7 +31,7 @@ export default function Service() {
               <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay={300}>
                 <div className="icon-box">
                   <div className="icon"><i className="bx bx-tachometer" /></div>
-                  <h4><a href>Sperrmüllentsorgung</a></h4>
+                  <p className="card-title"><a href>Sperrmüllentsorgung</a></p>
                   <p>
                     Wir holen große, unhandliche Haushaltsgegenstände, die nicht in den regulären Müll passen, ab und entsorgen sie fachgerecht.            </p>
                 </div>
@@ -39,7 +39,7 @@ export default function Service() {
               <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay={100}>
                 <div className="icon-box">
                   <div className="icon"><i className="bx bx-world" /></div>
-                  <h4><a href>Umzugshelfer </a></h4>
+                  <p className="card-title"><a href>Umzugshelfer </a></p>
                   <p>
                     Wir stellen Ihnen kräftige und erfahrene Helfer zur Seite, die Sie beim Tragen, Laden und bei allen anfallenden Aufgaben während Ihres Umzugs unterstützen.            </p>
                 </div>
@@ -47,7 +47,7 @@ export default function Service() {
               <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay={200}>
                 <div className="icon-box">
                   <div className="icon"><i className="bx bx-slideshow" /></div>
-                  <h4><a href>Ab- und Aufbau von Möbeln</a></h4>
+                  <p className="card-title"><a href>Ab- und Aufbau von Möbeln</a></p>
                   <p>
                     Es heißt Traumflugzeug.
                     Boeing gab bekannt, dass dieses Flugzeug mit zwei Triebwerken eines der treibstoffeffizientesten Flugzeuge ist, da es 20 % weniger Treibstoff verbraucht als sein Gegenstück.
@@ -57,7 +57,7 @@ export default function Service() {
               <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay={300}>
                 <div className="icon-box">
                   <div className="icon"><i className="bx bx-arch" /></div>
-                  <h4><a href>Umzüge</a></h4>
+                  <p className="card-title"><a href>Umzüge</a></p>
                   <p>
                     Unser Team übernimmt für Sie den kompletten Ablauf – von der Verpackung über den Transport bis hin zur Montage Ihrer Möbel. Egal ob ein kompletter Haushalt oder nur wenige Gegenstände: Wir sorgen dafür, dass alles sicher und zuverlässig ankommt.            </p>
                 </div>
@@ -66,7 +66,7 @@ export default function Service() {
               <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay={300}>
                 <div className="icon-box">
                   <div className="icon"><i className="bx bx-arch" /></div>
-                  <h4><a href>Wohnungsauflösung</a></h4>
+                  <p className="card-title"><a href>Wohnungsauflösung</a></p>
                   <p>
                     Wir räumen Wohnungen und Häuser komplett und kümmern uns um die fachgerechte Entsorgung von Möbeln und Haushaltsgegenständen – auf Wunsch bis zur besenreinen Übergabe.
                   </p>
@@ -77,7 +77,7 @@ export default function Service() {
               <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay={300}>
                 <div className="icon-box">
                   <div className="icon"><i className="bx bx-arch" /></div>
-                  <h4><a href>Transport aller Art - privat und gewerblich:</a></h4>
+                  <p className="card-title"><a href>Transport aller Art - privat und gewerblich:</a></p>
                   <p>
                     Als Umzugsfirma in Augsburg transportieren wir für private Haushalte und Unternehmen alles zuverlässig – von kleinen Möbelstücken bis zu umfangreichen Transporten.
                   </p>
@@ -88,7 +88,7 @@ export default function Service() {
               <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay={300}>
                 <div className="icon-box">
                   <div className="icon"><i className="bx bx-arch" /></div>
-                  <h4><a href>Transport und Entsorgung von Elektrogeräten</a></h4>
+                  <p className="card-title"><a href>Transport und Entsorgung von Elektrogeräten</a></p>
                   <p>
                     In Augsburg und Umgebung übernehmen wir die Abholung von Elektrogeräten – ob Kühlschrank, Waschmaschine oder Herd – und sorgen für ein umweltgerechtes Recycling.
                   </p>
@@ -104,7 +104,7 @@ export default function Service() {
         <section id="cta" className="cta">
           <div className="container" data-aos="zoom-in">
             <div className="text-center">
-              <h3>Kontaktieren Sie uns</h3>
+              <p className="cta-subtitle">Kontaktieren Sie uns</p>
               <p>
                 Brauchen Sie Hilfe bei Ihrem Umzug? Fragen Sie bei uns an. Wir haben auch kurzfristige Termine frei.
               </p>

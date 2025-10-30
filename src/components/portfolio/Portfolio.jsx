@@ -114,8 +114,9 @@ export default function Portfolio() {
                     <div className="container" data-aos="fade-up">
                         <div className="section-title">
                             <h2>Portfolio</h2>
-                            <h3>Schauen Sie sich unsere Portfolio an</h3>
+                            <p className="section-subtitle">Schauen Sie sich unsere Portfolio an</p>
                         </div>
+
                         <div className="row" data-aos="fade-up" data-aos-delay={100}>
                             <div className="col-lg-12 d-flex justify-content-center">
                                 <ul id="portfolio-flters">
@@ -126,14 +127,16 @@ export default function Portfolio() {
                                 </ul>
                             </div>
                         </div>
+
                         <div className="row portfolio-container" data-aos="fade-up" data-aos-delay={200}>
                             {/* {renderProfileImages} */}
                             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                                 <div className="portfolio-wrap">
                                     <img src="/assets/img/portfolio/portfolio-1.png" className="img-fluid" alt='portfolio-1' />
                                     <div className="portfolio-info">
-                                        <h4>umzug</h4>
+                                        <p className="card-title">umzug</p>
                                         <p>umzug</p>
+
                                         <div className="portfolio-links">
                                             <a href="assets/img/portfolio/portfolio-1.png" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Airbus 1"><i className="bx bx-plus" /></a>
                                         </div>
@@ -144,8 +147,9 @@ export default function Portfolio() {
                                 <div className="portfolio-wrap">
                                     <img src="assets/img/portfolio/portfolio-2.png" className="img-fluid" alt='portfolio-2' />
                                     <div className="portfolio-info">
-                                        <h4>Services 3</h4>
+                                        <p className="card-title">Services 3</p>
                                         <p>Services</p>
+
                                         <div className="portfolio-links">
                                             <a href="assets/img/portfolio/portfolio-2.png" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus" /></a>
                                         </div>
@@ -156,8 +160,9 @@ export default function Portfolio() {
                                 <div className="portfolio-wrap">
                                     <img src="assets/img/service/airbusA330.png" className="img-fluid" alt='service/airbusA330' />
                                     <div className="portfolio-info">
-                                        <h4>Airbus 2</h4>
+                                        <p className="card-title">Airbus 2</p>
                                         <p>Airbus</p>
+
                                         <div className="portfolio-links">
                                             <a href="assets/img/portfolio/portfolio-3.png" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"><i className="bx bx-plus" /></a>
                                         </div>
@@ -168,8 +173,9 @@ export default function Portfolio() {
                                 <div className="portfolio-wrap">
                                     <img src="assets/img/service/boeing747.png" className="img-fluid" alt='service/boeing747' />
                                     <div className="portfolio-info">
-                                        <h4>Transport</h4>
+                                        <p className="card-title">Transport</p>
                                         <p>Transport</p>
+
                                         <div className="portfolio-links">
                                             <a href="assets/img/portfolio/portfolio-4.png" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 2"><i className="bx bx-plus" /></a>
                                         </div>
@@ -180,8 +186,9 @@ export default function Portfolio() {
                                 <div className="portfolio-wrap">
                                     <img src="assets/img/portfolio/portfolio-8.png" className="img-fluid" alt='portfolio-8' />
                                     <div className="portfolio-info">
-                                        <h4>Services 2</h4>
+                                        <p className="card-title">Services 2</p>
                                         <p>Services</p>
+
                                         <div className="portfolio-links">
                                             <a href="assets/img/portfolio/portfolio-8.png" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 2"><i className="bx bx-plus" /></a>
                                         </div>
@@ -192,8 +199,9 @@ export default function Portfolio() {
                                 <div className="portfolio-wrap">
                                     <img src="assets/img/service/airbusA320.png" className="img-fluid" alt='service/airbusA320' />
                                     <div className="portfolio-info">
-                                        <h4>umzug</h4>
+                                        <p className="card-title">umzug</p>
                                         <p>umzug</p>
+
                                         <div className="portfolio-links">
                                             <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 3"><i className="bx bx-plus" /></a>
                                         </div>
@@ -204,8 +212,9 @@ export default function Portfolio() {
                                 <div className="portfolio-wrap">
                                     <img src="assets/img/service/boeing787.png" className="img-fluid" alt='service/boeing787' />
                                     <div className="portfolio-info">
-                                        <h4>Transport</h4>
+                                        <p className="card-title">Transport</p>
                                         <p>Transport</p>
+
                                         <div className="portfolio-links">
                                             <a href="assets/img/portfolio/portfolio-7.png" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 1"><i className="bx bx-plus" /></a>
                                         </div>
@@ -216,8 +225,9 @@ export default function Portfolio() {
                                 <div className="portfolio-wrap">
                                     <img src="assets/img/service/boeing737.png" className="img-fluid" alt='service/boeing737' />
                                     <div className="portfolio-info">
-                                        <h4>Transport</h4>
+                                        <p className="card-title">Transport</p>
                                         <p>Transport</p>
+
                                         <div className="portfolio-links">
                                             <a href="assets/img/portfolio/portfolio-9.png" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 3"><i className="bx bx-plus" /></a>
                                         </div>
@@ -228,8 +238,9 @@ export default function Portfolio() {
                                 <div className="portfolio-wrap">
                                     <img src="assets/img/portfolio/portfolio-10.png" className="img-fluid" alt='portfolio-10' />
                                     <div className="portfolio-info">
-                                        <h4>Services 3</h4>
+                                        <p className="card-title">Services 3</p>
                                         <p>Services</p>
+
                                         <div className="portfolio-links">
                                             <a href="assets/img/portfolio/portfolio-10.png" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus" /></a>
                                         </div>
@@ -306,7 +317,8 @@ export default function Portfolio() {
                             <div className="swiper-wrapper">
                                 <div className="swiper-slide">
                                     <div className="testimonial-item">
-                                        <h3>UmzügeTransport Group</h3>
+                                        <p className="testimonial-title">UmzügeTransport Group</p>
+
                                         {/* <h4>Ceo &amp; Founder</h4> */}
                                         <p>
                                             <i className="bx bxs-quote-alt-left quote-icon-left" />
